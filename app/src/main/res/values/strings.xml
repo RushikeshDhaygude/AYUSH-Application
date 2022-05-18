@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AYUSH1</string>
+    <string name="FullForm">Ayurveda Yoga Unani Siddha Homeopathy</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="skip">Skip</string>
+    <string name="Welcome">***Welcome to the AYUSH healthcare mission***</string>
+
+
+    //Registration and login
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_mobile">Please Enter a Valid Number</string>
+    <string name="invalid_email">Enter Valid Email Address</string>
+    <string name="invalid_password">Enter 8 digit password</string>
+    <string name="invalid_ayushid">Please Enter a valid AYUSH ID</string>
+    <string name="passwordmatch">AYUSH ID and password do not match</string>
+    <string name="logout">Logout</string>
+    <string name="textview">TextView</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <!--    <string name="default_web_client_id">248946550634-nen5pg0uh747rtu3425oi5jareqt1u3f.apps.googleusercontent.com</string>-->
+</resources>

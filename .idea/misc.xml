@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/btn_bg.xml" value="0.1945" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/button_background_blue.xml" value="0.1915" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/cut_card_background.xml" value="0.169" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/ic_add_img.xml" value="0.1915" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/ic_back_img.xml" value="0.1915" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/ic_baseline_add_a_photo_24.xml" value="0.1" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/ic_baseline_mail_24.xml" value="0.1" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/ic_baseline_menu_24.xml" value="0.169" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/ic_launcher_background1.xml" value="0.1" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable-v24/ic_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable/background_btn.xml" value="0.1" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/drawable/background_btn2.xml" value="0.1" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/font/antic.xml" value="0.1" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_hosp_dash.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_hospital_log.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_hospital_reg.xml" value="0.33" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_hsopital_log.xml" value="0.22" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_maps.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_profile.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/activity_splash2.xml" value="0.1634963768115942" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/nav_header.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/profile.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/menu/iconmenu.xml" value="0.18645833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
