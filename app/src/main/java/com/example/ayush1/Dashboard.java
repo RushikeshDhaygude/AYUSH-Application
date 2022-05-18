@@ -19,8 +19,7 @@ public class Dashboard extends AppCompatActivity {
     ImageView hm1;
     TextView name;
 
-
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
