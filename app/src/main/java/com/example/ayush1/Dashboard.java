@@ -18,6 +18,8 @@ public class Dashboard extends AppCompatActivity {
     CardView cv1,cv2,cv3,cv4,cv5;
     ImageView hm1;
     TextView name;
+
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
