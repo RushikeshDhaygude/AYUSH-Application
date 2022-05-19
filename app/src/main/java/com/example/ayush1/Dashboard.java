@@ -25,6 +25,7 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         cv1=findViewById(R.id.crd1);
+        cv2=findViewById(R.id.crd2);
         cv5=findViewById(R.id.crd5);
         hm1=findViewById(R.id.hamburger);
         name = findViewById(R.id.name);
@@ -47,6 +48,14 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Dashboard.this, "Hospital Selected", Toast.LENGTH_SHORT).show();
+            }
+        });
+        cv2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Dashboard.this, "Chat", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(Dashboard.this,ChatBot.class);
+                startActivity(intent);
             }
         });
         cv5.setOnClickListener(new View.OnClickListener() {

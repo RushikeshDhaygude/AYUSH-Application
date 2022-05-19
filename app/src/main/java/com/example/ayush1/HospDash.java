@@ -20,7 +20,16 @@ public class HospDash extends AppCompatActivity {
         cv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(HospDash.this, "Working", Toast.LENGTH_SHORT).show();
+                Toast.makeText(HospDash.this, "Hello", Toast.LENGTH_SHORT).show();
+//                Intent intent=new Intent(HospDash.this,AddHospital.class);
+//                startActivity(intent);
+            }
+        });
+        cv2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Intent intent=new Intent(HospDash.this,AddSpecialist.class);
+//                startActivity(intent);
             }
         });
     }
