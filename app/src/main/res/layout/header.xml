@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/Theme_color"
+    tools:context=".Dashboard"
+    android:gravity="bottom">
+    <!-- Circular Image View  -->
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="256dp"
+        android:layout_height="129dp"
+        app:srcCompat="@drawable/avtar" />
+
+    <TextView
+        android:id="@+id/ProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#0C0C0C"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="18dp">
+
+    </Button>
+
+
+</LinearLayout>

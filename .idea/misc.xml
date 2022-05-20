@@ -32,6 +32,32 @@
         <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/nav_header.xml" value="0.17239583333333333" />
         <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/layout/profile.xml" value="0.18478260869565216" />
         <entry key="..\:/Users/rushikesh/AYUSH1/app/src/main/res/menu/iconmenu.xml" value="0.18645833333333334" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/drawable-v24/cut_card_background.xml" value="0.1" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/drawable-v24/gradient_1.xml" value="0.1075" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/drawable-v24/ic_bot.xml" value="0.175" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/drawable-v24/ic_user.xml" value="0.175" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/drawable/btn_bg.xml" value="0.1745" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/drawable/input_bg.xml" value="0.1745" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/activity_add_hospital.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/activity_add_specialist.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/activity_dashboard.xml" value="0.23541666666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/activity_hosp_dash.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/activity_hospital_log.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/activity_login.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/activity_main.xml" value="0.16304347826086957" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/activity_test_header.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/add_hospital.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/add_specialist.xml" value="0.1" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/bot_msg.xml" value="0.16304347826086957" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/chatbot.xml" value="0.16304347826086957" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/header.xml" value="0.18" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/hosp_info.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/hospital_list.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/layoutitem.xml" value="0.18229166666666666" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/profile.xml" value="0.13722826086956522" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/layout/user_msg.xml" value="0.16259057971014493" />
+        <entry key="..\:/android workspace/AYUSH-Application/app/src/main/res/menu/main_menu.xml" value="0.21" />
       </map>
     </option>
   </component>

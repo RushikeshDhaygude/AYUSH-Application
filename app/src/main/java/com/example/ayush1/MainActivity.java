@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
-import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -12,11 +11,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
     FirebaseAuth mAuth;
+    LottieAnimationView lottieAnimationView;
 
 
     private  static int SPLASH_SCREEN= 5000;
@@ -27,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        lottieAnimationView=findViewById(R.id.lottie);
 
 
 
@@ -37,11 +39,11 @@ public class MainActivity extends AppCompatActivity {
         topAnim= AnimationUtils.loadAnimation(this,R.anim.top_animation);
         bottomAnim= AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
 
-        image=findViewById(R.id.imageView);
+
         logo=findViewById(R.id.textView);
         name=findViewById(R.id.textView2);
 
-        image.setAnimation(topAnim);
+        lottieAnimationView.setAnimation(topAnim);
         logo.setAnimation(bottomAnim);
         name.setAnimation(bottomAnim);
 
