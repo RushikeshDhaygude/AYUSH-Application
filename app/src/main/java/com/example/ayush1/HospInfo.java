@@ -27,8 +27,8 @@ public class HospInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hosp_info);
 
-        Button b1 = (Button) findViewById(R.id.location);
-        Button b2 = (Button) findViewById(R.id.appointment);
+        Button loc = (Button) findViewById(R.id.location);
+        Button contactus = (Button) findViewById(R.id.contact);
         TextView hospname = (TextView) findViewById(R.id.hospname);
         TextView hospaddr = (TextView) findViewById(R.id.hospaddr);
         TextView phone2 = (TextView) findViewById(R.id.hospnum2);
@@ -41,18 +41,20 @@ public class HospInfo extends AppCompatActivity {
         String hospnamefromdb = (String) intent.getSerializableExtra("hosp");
 
         DatabaseReference mref = FirebaseDatabase.getInstance().getReference("Hospital");
+
         mref.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
-                Hospitals hosp = dataSnapshot.child(hospnamefromdb).getValue(Hospitals.class);
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                Hospitals hosp = snapshot.child(hospnamefromdb).getValue(Hospitals.class);
                 if(hosp!=null) {
+
                     String addr = hosp.address;
                     String phone2db = hosp.phone_no2;
                     String emaildb = hosp.email;
-                    String bedcountdb = hosp.bedcount;
+                    String bedcountdb = hosp.bed_count;
                     String specdb = hosp.specialization;
 //                    Long ratingdb = (Long) hosp.rating;
+
 
                     System.out.println(specdb + "\n" + bedcountdb);
 
@@ -64,7 +66,7 @@ public class HospInfo extends AppCompatActivity {
                     specialization.setText(specdb);
 //                  rating.setRating(ratingdb);
 
-                    phone2.setOnClickListener(new View.OnClickListener() {
+                    contactus.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
                             Uri u = Uri.parse("tel:" + phone2db);
@@ -72,17 +74,90 @@ public class HospInfo extends AppCompatActivity {
                             startActivity(i);
                         }
                     });
+
+                    loc.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent i = new Intent(getApplicationContext(),MapsActivity.class);
+                            i.putExtra("hosp",hospnamefromdb);
+                            i.putExtra("lat",hosp.latitude);
+                            i.putExtra("long",hosp.longitude);
+//                            i.setClass();
+                            startActivity(i);
+//                            Intent intent = new Intent();
+//                            intent.putExtra("hosp",hospnamefromdb);
+//                            intent.setClass(getApplicationContext(),MapsActivity.class);
+//                            startActivity(intent);
+                        }
+                    });
                 }
                 else {
                     Toast.makeText(getApplicationContext(),"Failed",Toast.LENGTH_SHORT).show();
                 }
-                }
+            }
+
 
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(getApplicationContext(),databaseError.getMessage(),Toast.LENGTH_SHORT).show();
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(getApplicationContext(),error.getMessage(),Toast.LENGTH_SHORT).show();
+
             }
         });
+
+
+
+//                Hospitals hosp = dataSnapshot.getValue(Hospitals.class);
+//                if(hosp!=null) {
+//                if(true) {
+//                    for (DataSnapshot ds : dataSnapshot.getChildren()){
+//                        Hospitals hosp = ds.getValue(Hospitals.class);
+//                        String addr = hosp.address;
+//                        String phone2db = hosp.phone_no2;
+//                        String emaildb = hosp.email;
+//                        String bedcountdb = hosp.bed_count;
+//                        String specdb = hosp.specialization;
+////                    Long ratingdb = (Long) hosp.rating;
+//
+//
+//                        System.out.println(specdb + "\n" + bedcountdb);
+//
+//                        hospname.setText(hospnamefromdb);
+//                        hospaddr.setText(addr);
+//                        phone2.setText(phone2db);
+//                        email.setText(emaildb);
+//                        bedcount.setText(bedcountdb);
+//                        specialization.setText(specdb);
+////                  rating.setRating(ratingdb);
+//
+//                        contactus.setOnClickListener(new View.OnClickListener() {
+//                            @Override
+//                            public void onClick(View v) {
+//                                Uri u = Uri.parse("tel:" + phone2db);
+//                                Intent i = new Intent(Intent.ACTION_DIAL, u);
+//                                startActivity(i);
+//                            }
+//                        });
+//
+//                        loc.setOnClickListener(new View.OnClickListener() {
+//                            @Override
+//                            public void onClick(View view) {
+//                                Intent i = new Intent(getApplicationContext(),MapsActivity.class);
+//                                i.putExtra("hosp",hospnamefromdb);
+////                                i.putExtra("lat",hosp.getLat());
+////                                i.putExtra("long",hosp.getLongit());
+////                            i.setClass();
+//                                startActivity(i);
+////                            Intent intent = new Intent();
+////                            intent.putExtra("hosp",hospnamefromdb);
+////                            intent.setClass(getApplicationContext(),MapsActivity.class);
+////                            startActivity(intent);
+//                            }
+//                        });
+//                    }
+
+
+
+
 
     }
 }

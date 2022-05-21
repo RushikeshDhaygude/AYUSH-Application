@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/HospName"
         android:layout_width="343dp"
         android:layout_height="47dp"
         android:background="@drawable/input_bg"
@@ -22,7 +22,7 @@
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/HospEmail"
         android:layout_width="343dp"
         android:layout_height="47dp"
         android:background="@drawable/input_bg"
@@ -38,7 +38,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
+        android:id="@+id/HospArea"
         android:layout_width="343dp"
         android:layout_height="47dp"
         android:background="@drawable/input_bg"
@@ -54,7 +54,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/HospPhone"
         android:layout_width="343dp"
         android:layout_height="47dp"
         android:background="@drawable/input_bg"
@@ -70,7 +70,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/HospButton"
         android:layout_width="291dp"
         android:layout_height="44dp"
         android:background="@drawable/btn_bg"
@@ -85,7 +85,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/HospSpec"
         android:layout_width="343dp"
         android:layout_height="47dp"
         android:background="@drawable/input_bg"
@@ -113,7 +113,7 @@
         app:srcCompat="@drawable/img" />
 
     <RatingBar
-        android:id="@+id/rating_bar"
+        android:id="@+id/ratings"
         android:layout_width="247dp"
         android:layout_height="45dp"
         android:numStars="5"
@@ -132,13 +132,13 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.83" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/HospBedCount"
         android:layout_width="343dp"
         android:layout_height="47dp"
         android:background="@drawable/input_bg"

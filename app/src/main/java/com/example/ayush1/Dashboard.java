@@ -1,6 +1,7 @@
 package com.example.ayush1;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -140,7 +141,10 @@ catch (Exception e) {
                     }
                     case R.id.ratings:
                     {
-                        Toast.makeText(Dashboard.this, "Ratings Selected", Toast.LENGTH_SHORT).show();
+                        RateUsDialog rateUsDialog=new RateUsDialog(Dashboard.this);
+                        rateUsDialog.getWindow().setBackgroundDrawable(new ColorDrawable(getResources().getColor(android.R.color.transparent)));
+                        rateUsDialog.setCancelable(false);
+                        rateUsDialog.show();
                         break;
                     }
                     case R.id.about:

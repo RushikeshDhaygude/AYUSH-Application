@@ -28,5 +28,9 @@
     <color name="whiteTextColor">#fff</color>
     <color name="primaryTextColor">#ffeb3b</color>
 
+    //Dialog colors
+    <color name="dialog_color_1">#FDD736</color>
+    <color name="dialog_color_2">#3B5796</color>
+
 
 </resources>

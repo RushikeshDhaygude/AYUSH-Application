@@ -7,7 +7,7 @@
         </item>
         <item android:id="@+id/login"
             android:icon="@drawable/ic_baseline_login_24"
-            android:title="LogIn">
+            android:title="Log In">
         </item>
         <item android:id="@+id/ratings"
             android:icon="@drawable/ic_baseline_star_rate_24"
@@ -15,7 +15,7 @@
         </item>
         <item android:id="@+id/about"
             android:icon="@drawable/ic_person_24"
-            android:title="About US">
+            android:title="About Us">
         </item>
     </group>
 </menu>

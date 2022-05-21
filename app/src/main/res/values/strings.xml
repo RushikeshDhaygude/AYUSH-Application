@@ -22,6 +22,7 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="Fullform">Ayush Unani Siddha Homeopathy</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 
     <!--    <string name="default_web_client_id">248946550634-nen5pg0uh747rtu3425oi5jareqt1u3f.apps.googleusercontent.com</string>-->
